@@ -1,0 +1,48 @@
+// Sample blog post data
+const blogPosts = [
+  //   {
+  //     title: "Trending News ",
+  //     content:
+  //       "Starting a blog is an exciting journey. In this post, we will discuss the steps to start your own blog and share your ideas with the world.",
+  //   },
+  //   {
+  //     title: "How to Start a Blog",
+  //     content:
+  //       "Starting a blog is an exciting journey. In this post, we will discuss the steps to start your own blog and share your ideas with the world.",
+  //   },
+  //   {
+  //     title: "Top 5 Travel Destinations in 2023",
+  //     content:
+  //       "Discover the top travel destinations for 2023. From exotic beaches to historical landmarks, this list has something for every travel enthusiast.",
+  //   },
+  //   {
+  //     title: "The Art of Writing: Tips for Aspiring Writers",
+  //     content:
+  //       "If you aspire to be a writer, this post provides valuable tips on honing your writing skills and navigating the creative process.",
+  //   },
+  // Add more posts as needed
+];
+
+// Function to display blog posts on the page
+function displayBlogPosts() {
+  const blogPostsContainer = document.getElementById("blog-posts");
+
+  blogPosts.forEach((post) => {
+    const postElement = document.createElement("div");
+    postElement.classList.add("blog-post");
+
+    const titleElement = document.createElement("h2");
+    titleElement.textContent = post.title;
+
+    const contentElement = document.createElement("p");
+    contentElement.textContent = post.content;
+
+    postElement.appendChild(titleElement);
+    postElement.appendChild(contentElement);
+
+    blogPostsContainer.appendChild(postElement);
+  });
+}
+
+// Call the function to display blog posts when the page loads
+document.addEventListener("DOMContentLoaded", displayBlogPosts);
