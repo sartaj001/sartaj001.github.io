@@ -11,10 +11,16 @@ const blogPosts = [
     contentUrl: "blog-2.html",
   },
   {
-    id:3,
-    title:"New blog",
-    contentUrl:"blog-3.html",
-  }
+    id: 3,
+    title: "New blog",
+    contentUrl: "blog-3.html",
+  },
+
+  {
+    id: 4,
+    title: "Earn Money Online",
+    contentUrl: "blog-4.html",
+  },
   // Add more posts as needed
 ];
 
