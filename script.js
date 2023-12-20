@@ -18,12 +18,6 @@ const blogPosts = [
 
   {
     id: 4,
-    title: "Earn Money Online",
-    contentUrl: "blog-4.html",
-  },
-
-  {
-    id: 5,
     title: "IndVsSA",
     contentUrl: "blog-5.html",
   },
