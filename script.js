@@ -21,6 +21,12 @@ const blogPosts = [
     title: "Earn Money Online",
     contentUrl: "blog-4.html",
   },
+
+  {
+    id: 5,
+    title: "IndVsSA",
+    contentUrl: "blog-5.html",
+  },
   // Add more posts as needed
 ];
 
